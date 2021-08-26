@@ -5,9 +5,11 @@
     "@commitlint/config-conventional": "^13.1.0",
     "@commitlint/cz-commitlint": "^13.1.0",
     "commitizen": "^4.2.4",
-    "husky": "^7.0.0"
+    "husky": "^7.0.0",
+    "prettier": "2.3.2"
   },
   "scripts": {
+    "lint:prettier": "prettier --write",
     "prepare": "husky install"
   },
   "config": {
